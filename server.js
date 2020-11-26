@@ -9,7 +9,7 @@ const bcrypt = require( 'bcrypt' );
 
 const database = knex({
     client : 'pg',
-    connection : 'postgresql://alfredosalazar@localhost/login'
+    connection : 'postgresql://saila@localhost/login'
 });
 
 app.use( cors() );
